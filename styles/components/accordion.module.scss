@@ -1,0 +1,23 @@
+@import "../abstracts/mixins";
+.right {
+    width: 60%;
+    padding: 5% 0 10% 10%;
+    h1{
+        font-weight: 700;
+        font-size: 3rem;
+        @include resposive{
+            text-align: center;
+            padding-right: 20%;
+        }
+    }
+    @include resposive{
+        width: 100%;
+        text-align: center;
+        // transform: translateY(-35%);
+    }
+}
+.accordion{
+    width: 80%;
+    height: 80%;
+    margin-top: 2rem;
+}
