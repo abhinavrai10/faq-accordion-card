@@ -4,7 +4,10 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    unoptimized: true,
+    loader: "akamai",
+    path: "",
   },
+  basePath: "/nextjs-pages",
+  assetPrefix: "/nextjs-pages",
 }
 module.exports = nextConfig
