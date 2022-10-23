@@ -10,7 +10,7 @@ const nextConfig = {
   },
   images: {
     loader: "akamai",
-    path: "",
+    path: '/next/image',
   },
   basePath: "/nextjs-pages",
   assetPrefix: "/nextjs-pages",
