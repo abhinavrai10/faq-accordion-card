@@ -8,10 +8,10 @@ const nextConfig = {
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
   },
-  // images: {
-  //   loader: "akamai",
-  //   path: '/next/image',
-  // },
+  images: {
+    loader: "akamai",
+    path: '/next/image',
+  },
   // basePath: "/nextjs-pages",
   // assetPrefix: "/nextjs-pages",
 };
