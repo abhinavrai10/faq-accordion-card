@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "export": "next export",
+    "vercel-build": "npm run prepare && next build",
     "start": "next start",
     "lint": "next lint"
   },
