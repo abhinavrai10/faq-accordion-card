@@ -19,9 +19,9 @@ const image_container = () => {
               className={styles.woman}
             />
           </picture>
-        </div>
-        <div className={styles.box_container}>
-          <Image src={box_path} alt="box" layout="fill" />
+          <div className={styles.box_container}>
+            <Image src={box_path} alt="box" layout="responsive" />
+          </div>
         </div>
       </article>
     </section>
